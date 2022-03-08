@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve(strict=True).parent.parent
 SECRET_KEY = 'vtam3drwf$1c7s%(nxirb5%b7fh$&y^-j+^hjk8)eddonwgm43'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bookworm-python.herokuapp.com','127.0.0.1']
 
 
 # Application definition
